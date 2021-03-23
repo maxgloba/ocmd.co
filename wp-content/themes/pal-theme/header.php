@@ -52,14 +52,14 @@
   <body <?php body_class(); ?> >
 
     <header class="main-header">
-      <?php if(TYPE() === 'post' || is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
+      <?php if(TYPE() === 'post' || is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-6-jars-drc-downsell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
       <div class="container">
       <?php else: ?>
       <div class="container-fluid">
       <?php endif; ?>
         <?php if(TYPE() === 'post' || is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
         <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post" width="160px"></a>
-        <?php elseif( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-3-jars-drc-upsell.php', 'upsells/page-6-jars-drc-downsell.php') ) ): ?>
+        <?php elseif( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-6-jars-drc-downsell.php') ) ): ?>
         <div class="row">
           <div class="col-md-4">
             <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo" ></a>

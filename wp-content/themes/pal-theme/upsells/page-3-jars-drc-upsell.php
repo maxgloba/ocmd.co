@@ -6,66 +6,132 @@ get_header();
 while ( have_posts() ) : the_post();
 ?>
 
-<section class="s1">
+<section class="top">
   <div class="container">
-    <div class="steps">
-      <div class="step">
-        <b>STEP 1</b> ORDER APPROVED
-      </div>
-      <div class="step">
-        <b>STEP 2</b> PRODUCT OPTIONS
-      </div>
-      <div class="step">
-        <b>STEP 3</b> FINAL CONFIRMATION
-      </div>
+    <span>ONE-TIME OFFER AVAILABLE</span> - DO NOT CLOSE THIS PAGE - THIS <span>EXCLUSIVE DISCOUNT</span> IS ONLY AVAILABLE HERE.
+  </div>
+</section>
+
+<header class="page-header">
+  <div class="container">
+    <a href="<?php echo home_url(); ?>" class="logo">
+      <img src="<?php echo IMG.'/logo.svg'; ?>">
+    </a>
+    <div class="info">
+      Custom Service
+      <a href="tel:8663414691">(866) 341-4691</a>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="<?php echo UPSELLS; ?>/img/dr.jpg" alt="" width="100%">
-        <h5>Dr. Tess Mauricio</h5>
-        <p>Stanford educated Board Certified Dermatologist</p>
-      </div>
-      <div class="col-md-8">
-        <h2>Congratulations!</h2>
-        <p>You did it! I’m so glad you were able to get your order in.</p>
-        <p>This revolutionary formula will activate your fibroblasts and immediately put them to work, pumping out youthful levels of collagen and elastin to begin de-aging your skin from the inside out to give your skin a tight, plump, youthful new look.</p>
-        <p>Within minutes of using it for the first time, you will feel and see immediate plumping and lifting effects!</p>
-        <p>Something to keep in mind: Since we’re using a small boutique laboratory in Israel, once our initial batch sells out - it could be up to 4 months before we can get this formula back in stock. And with all the chaos going on in the world, it might be even longer. That’s the bad news.</p>
-        <p>The good news is this: Because you’re now a member of the Orange County MD Family, i’d like to offer you a chance to <b>stock up at this special introductory price BEFORE we run out</b>.</p>
-        <p>This way, you can keep enjoying the incredible age-defying benefits of Rejuvenation Complex Cream - even if it is unavailable for many months to come.</p>
-        <p>But I can only make that offer right now, here on this page — so if you leave, you won’t see it again.</p>
+  </div>
+</header>
+
+<section class="wait">
+  <div class="container">
+    <h2>Wait! Rejuvenation Complex Cream Stocks Running Low!</h2>
+    <h3>Add 3 Jars & Save Big</h3>
+  </div>
+</section>
+
+<section class="product">
+  <div class="container">
+    <div class="product-wrap">
+      <div class="row">
+        <div class="col-left">
+          <div class="product-title">Get OCMD's Rejuvenation Complex Cream <br> For Our Biggest Discount Ever!</div>
+          <div class="product-slogan">A 3 Jars For Just $35 Per Jar</div>
+          <ul class="product-list">
+            <li>Don't Risk Running Out Of Supply</li>
+            <li>You Get Our Lowest Price, Guaranteed!</li>
+            <li>Free Shipping, Money-Back Guarantee</li>
+          </ul>
+          <div class="product-line">One-Time Savings <span>$255</span> - This Page Only</div>
+          <div class="product-offer-title">Offer Expires In <span data-time="7">07:00</span></div>
+          <div class="product-board">
+            <div class="product-price">
+              <div class="product-price__retail">$360</div>
+              <div class="product-price__now">$105</div>
+            </div>
+            <div class="product-save">You Save $255</div>
+          </div>
+          <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes">Yes! Add this one-time bundle to my order!</a>
+          <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No thanks, I understand I may never see this low price again.</a>
+        </div>
+        <div class="col-right">
+          <p><img src="<?php echo IMG; ?>/3_jars/3_jars.png" alt="" width="350px"></p>
+          <p><img src="<?php echo IMG; ?>/3_jars/marks.png" alt="" width="360px"></p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="s2">
+<section class="bonus">
   <div class="container">
-    <div class="row row-3jars">
-      <div class="col-md-5">
-        <img src="<?php echo UPSELLS; ?>/img/lamer.jpg" alt="" width="100%">
+    <div class="row">
+      <div class="col-left">
+        <h2>Special Bonus <span>Buy 3 Jars</span></h2>
+        <img src="<?php echo IMG; ?>/3_jars/3_jars.png" alt="">
+        <div class="bonus-board">
+          <div class="bonus-price">
+            <div class="bonus-price__retail">$360</div>
+            <div class="bonus-price__now">$105</div>
+          </div>
+          <div class="bonus-save">You Save $255</div>
+        </div>
       </div>
-      <div class="col-md-7">
-        <h2>How Would You Like To Add <br> <b>3 Jars Of Rejuvenation Complex Cream <br> at <span>70% Off?</span></b></h2>
-        <h3>REGULAR PRICE: $360.00 <br> <span>INSTANT SAVINGS: $255.00</span></h3>
-        <h4>YOUR PRICE: $105.00</h4>
+      <div class="col-right">
+        <h3>Congratulations on a great decision!</h3>
+        <p>You did it! I'm so glad you were able to get your order in.</p>
+        <p>This premium ingredients in this revolutionary formula will nourish and support your skin, helping it to produce youthful levels of collagen and elastin, and de-aging your skin from the inside out.</p>
+        <p>Many women feel and see immediately positive effects after using it for the very first time.</p>
+        <p>Something to keep in mind: Since we're using a small boutique laboratory in Israel, once our initial batch sells out - it could be up to 4 months before we can get this formula back in stock. And with all the chaos going on in the world, it might be even longer. That's the bad news.</p>
+        <p>The good news is this: Because you're now a member of the Orange County MD Family, i'd like to offer you a chance to stock up at this special introductory price BEFORE we run out.</p>
+        <p>This way, you can keep enjoying the incredible age-defying benefits of Rejuvenation Complex Cream - even if it is unavailable for many months to come.</p>
+        <p>But I can only make that offer right now, here on this page - so if you leave, you won't see it again.</p>
+        <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes">Yes! Add this one-time bundle to my order!</a>
+        <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No thanks, I understand I may never see this low price again.</a>
       </div>
     </div>
-    <div class="why">
-      <h5>“Why Are You Making Such A Great Offer?”</h5>
-      <p>The  first question every woman who tries Rejuvenation Complex Cream asks is “How Can I Stock Up So “I’m  Never Left Without Their New Skin Secret?”</p>
-      <p>So I want to make it easy to stock up and save BIG before we sell out of the initial batch.</p>
-      <p>When you add <b>3 bottles of Rejuvenation Complex Cream</b> to your order today, as a special thank you for being part of this special release I want to make them available to you at wholesale pricing.</p>
-      <h5>“Can I Wait And Decide After I Get My First Shipment?”</h5>
-      <p>Unfortunately, this is not possible. This is a one-time offer that we are trying out to put our best customers in a position to never be without their Rejuvenation Complex Cream. Chances are, we will stock out of this formula by the time your order arrives. This is most likely the only time we can ever offer 70% off and guarantee immediate availability of more Rejuvenation Complex Cream.</p>
-      <h5>STILL NOT 100% SURE?</h5>
-      <p>I hear you! </p>
-      <p>And that is the exact reason why I insisted we make sure you’re protected by a <b>no-questions-asked 90-day money back guarantee</b>. This way you can avoid risking not having your Rejuvenation Complex Cream right when you need it most! </p>
-      <p>With this guarantee in place for <em>your</em> protection, my advice would be to  just go ahead and take advantage of the deal and if you're not completely satisfied — for whatever reason — just let our team know and you’ll be refunded every penny. <b>You can even keep the jars!</b> You’re showing us your trust today and showing you the same trust in return only makes sense.</p>
-      <p>When you add <b>3 bottles of Rejuvenation Complex Cream</b> to your order today, as a special thank you for being part of this special release I want to make them available to you at wholesale pricing.</p>
+  </div>
+</section>
+
+<section class="guarantee">
+  <div class="container">
+    <h2>Our Guarantee for You</h2>
+    <p>We want you to help you feel completely comfortable accepting this offer by giving you an unconditional 90-day, no-questions asked money-back guarantee.</p>
+    <p>If Orange County MD's Rejuvenation Complex Cream doesn't do for you all we've promised... and more... simply return what's left within 90 days and we will promptly issue you a full refund.</p>
+    <p>You either agree OCMD's Rejuvenation Complex Cream produces a visibly lifted, plumper, and glowing complexion that you see in the mirror or you can return the empty jar and our customer care team will give you a full refund.</p>
+    <p>&nbsp;</p>
+    <p>Questions or concerns about your the product or your order? Just contact our friendly team at:</p>
+    <ul class="contacts">
+      <li>
+        <img src="<?php echo IMG; ?>/3_jars/icon-phone.png" alt="">
+        <a href="tel:8663414691">(866) 341-4691</a>
+      </li>
+      <li>
+        <img src="<?php echo IMG; ?>/3_jars/icon-msg.png" alt="">
+        <a href="mailto:support@ocmd.co" style="color: #E5805A;">support@ocmd.co</a>
+      </li>
+    </ul>
+    <img src="<?php echo IMG; ?>/3_jars/dr.png" alt="" class="dr">
+  </div>
+</section>
+
+<section class="bot">
+  <div class="container">
+    <div class="row">
+      <div class="col-left">
+        <p><img src="<?php echo IMG; ?>/3_jars/3_jarsss.png" alt=""></p>
+        <p><img src="<?php echo IMG; ?>/3_jars/marks.png" alt=""></p>
+      </div>
+      <div class="col-right">
+        <h2>Add 3 jars of Rejuvenation Complex Cream to your order and <span>save 70%</span></h2>
+        <h3>(That's a $255 savings off the normal price)</h3>
+        <h4>When you click the button below, we will add 3 jars of OCMD's Rejuvenation Complex Cream to your order for only $35.</h4>
+        <h5>$105.00</h5>
+        <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes">Yes! Add this one-time bundle to my order!</a>
+        <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No thanks, I understand I may never see this low price again.</a>
+      </div>
     </div>
-    <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes btn-green">YES! Tess I want To Stock Up And Save Big!</a>
-    <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">NO THANKS, I UNDERSTAND THAT I WON'T SEE THIS OFFER AGAIN</a>
   </div>
 </section>
 
