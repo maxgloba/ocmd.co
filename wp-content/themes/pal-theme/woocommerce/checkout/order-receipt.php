@@ -41,12 +41,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php endif; ?>
 </ul>
 <!-- Event snippet for OCMD Purchase conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-601140766/seIpCLvVt_0BEJ7c0p4C',
-      'transaction_id': '<?php echo esc_html( $order->get_order_number() ); ?>'
-  });
-</script>
 <?php do_action( 'woocommerce_receipt_' . $order->get_payment_method(), $order->get_id() ); ?>
 
 <div class="clear"></div>
