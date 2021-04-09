@@ -126,7 +126,7 @@ while ( have_posts() ) : the_post();
       <div class="col-right">
         <h2>Add 3 jars of Rejuvenation Complex Cream to your order and <span>save 70%</span></h2>
         <h3>(That's a $255 savings off the normal price)</h3>
-        <h4>When you click the button below, we will add 3 jars of OCMD's Rejuvenation Complex Cream to your order for only $35.</h4>
+        <h4>When you click the button below, we will add 3 jars of OCMD’s Rejuvenation Complex Cream to your order for only $33 each.</h4>
         <h5>$99.00</h5>
         <a href="https://ocmd.co?wfocu-accept-link=yes" class="btn btn-yes">Yes! Add this one-time bundle to my order!</a>
         <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No thanks, I understand I may never see this low price again.</a>
