@@ -91,12 +91,12 @@ function front_scripts() {
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/offer/js/scripts.js', false, false, 'in_footer');
   }
 
-  if( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-6-jars-drc-downsell.php') ) ){
+  if( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php') ) ){
     wp_enqueue_style( 'styles', get_template_directory_uri().'/upsells/css/style.css');
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/upsells/js/scripts.js', false, false, 'in_footer');
   }
 
-  if( is_page_template('upsells/page-3-jars-drc-upsell.php') ){
+  if( is_page_template(array('upsells/page-3-jars-drc-upsell.php', 'upsells/page-1-jars-drc-downsell.php', 'upsells/page-3-jars-drc-downsell.php', 'upsells/page-6-jars-drc-upsell.php')) ){
     wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles-3_jars.css');
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts-3_jars.js', false, false, 'in_footer');
   }
