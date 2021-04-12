@@ -56,7 +56,7 @@ while ( have_posts() ) : the_post();
           <a href="https://ocmd.co?wfocu-reject-link=yes" class="btn btn-no">No thanks, I understand I may never see this low price again.</a>
         </div>
         <div class="col-right">
-          <p><img src="<?php echo IMG; ?>/3_jars/3_jars.png" alt="" width="350px"></p>
+          <p><img src="<?php echo IMG; ?>/3_jars/6_jars.png" alt="" width="350px"></p>
           <p><img src="<?php echo IMG; ?>/3_jars/marks.png" alt="" width="360px"></p>
         </div>
       </div>
@@ -69,7 +69,7 @@ while ( have_posts() ) : the_post();
     <div class="row">
       <div class="col-left">
         <h2>Special Bonus <span>Save 70% By Adding 6 Jars</span></h2>
-        <img src="<?php echo IMG; ?>/3_jars/3_jars.png" alt="">
+        <img src="<?php echo IMG; ?>/3_jars/6_jars.png" alt="">
         <div class="bonus-board">
           <div class="bonus-price">
             <div class="bonus-price__retail">$720</div>
