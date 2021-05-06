@@ -86,7 +86,7 @@ function front_scripts() {
     wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles-404.css');
   }
 
-  if( is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') ) ){
+  if( is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php', 'offer/page-camp5.php') ) ){
     wp_enqueue_style( 'styles', get_template_directory_uri().'/offer/css/style.css');
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/offer/js/scripts.js', false, false, 'in_footer');
   }

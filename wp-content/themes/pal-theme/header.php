@@ -52,12 +52,12 @@
   <body <?php body_class(); ?> >
 
     <header class="main-header">
-      <?php if(TYPE() === 'post' || is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
+      <?php if(TYPE() === 'post' || is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php', 'offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php', 'offer/page-camp5.php') )): ?>
       <div class="container">
       <?php else: ?>
       <div class="container-fluid">
       <?php endif; ?>
-        <?php if(TYPE() === 'post' || is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php') )): ?>
+        <?php if(TYPE() === 'post' || is_page_template( array('offer/page-camp1.php', 'offer/page-camp2.php', 'offer/page-camp3.php', 'offer/page-camp4.php', 'offer/page-camp5.php') )): ?>
         <a href="<?php echo home_url(); ?>" title="Home page | OCMD LLC"><img src="<?php echo IMG.'/logo.svg'; ?>" alt="" class="logo logo-post" width="160px"></a>
         <?php elseif( is_page_template( array('upsells/page-1-2-3-deep-perfecting-cerum-cross-sell.php') ) ): ?>
         <div class="row">
