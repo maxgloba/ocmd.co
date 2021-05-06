@@ -6,6 +6,8 @@ get_header();
 while ( have_posts() ) : the_post();
 ?>
 
+<?php the_field('styles'); ?>
+
   <?php get_template_part( 'offer/partials/offer', 'sold' ); ?>
 
   <section class="products">
