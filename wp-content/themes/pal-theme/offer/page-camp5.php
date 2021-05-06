@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Camp 4
+ * Template Name: Camp 5
  */
 get_header();
 while ( have_posts() ) : the_post();
