@@ -7,6 +7,7 @@
           <li data-resp="resp1" class="active">Product Details</li>
           <li data-resp="resp2">Benefits</li>
           <li data-resp="resp4">How It Works</li>
+          <li data-resp="resp7">Ingredients</li>
           <li data-resp="resp5">Our Guarantee</li>
           <li data-resp="resp6">About OCMD</li>
         </ul>
@@ -137,6 +138,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <button data-respa="resp7"  class="accordion useAccordion">Ingredients</button>
+      <div class="resp-tab resp7">
+        <h2>Ingredients</h2>
+        <p>WATER; ISOPROPYL MYRISTATE; RICINUS COMMUNIS (CASTOR) SEED OIL; SQUALANE; CYCLOPENTASILOXANE; DIMETHICONE; CAPRYLIC/CAPRIC TRIGLYCERIDE; GLYCERIN; TOCOPHERYL ACETATE; SODIUM ACRYLATE / SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER; PHENOXYETHANOL; PANTHENOL; RETINYL PALMITATE; ISOHEXADECANE; POLYSORBATE 20; TITANIUM DIOXIDE; MATRICARIA CHAMOMILLA (GERMAN CHAMOMILE) FLOWER WATER; SODIUM BENZOATE; CALENDULA OFFICINALIS (CALENDULA) FLOWER WATER; POLYSORBATE 80; PERSEA GRATISSIMA (AVOCADO) OIL; TRITICUM VULGARE (WHEAT) GERM OIL; FRAGRANCE; SORBITAN OLEATE; MALUS DOMESTICA (APPLE) FRUIT CELL CULTURE EXTRACT; ALCOHOL; PRUNUS DULCIS (SWEET ALMOND) OIL; ETHYLHEXYLGLYCERIN; BORAGO OFFICINALIS (BORAGE) SEED OIL; SODIUM HYALURONATE; LECITHIN; XANTHAN GUM; BENZYL ALCOHOL; CITRIC ACID; ASCORBYL PALMITATE; POTASSIUM SORBATE; LINALOOK, CITRONELLOL; GERANIOL, LIMONENE.</p>
       </div>
       <button data-respa="resp5"  class="accordion useAccordion">Our Guarantee</button>
       <div class="resp-tab resp5">
