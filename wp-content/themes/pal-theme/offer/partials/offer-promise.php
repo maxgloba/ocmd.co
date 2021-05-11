@@ -1,10 +1,10 @@
 <div class="promise">
   <h2 class="promise-title"><span>OCMD Principles</span></h2>
   <div class="row">
-    <div class="col-4 col-md-2">
+    <!-- <div class="col-4 col-md-2">
       <img src="<?php echo OFFER; ?>/img/chk-bar-list-icn2.png">
       Fragrance <br> Free
-    </div>
+    </div> -->
     <div class="col-4 col-md-2">
       <img src="<?php echo OFFER; ?>/img/chk-bar-list-icn3.png">
       Cruelty <br> Free
